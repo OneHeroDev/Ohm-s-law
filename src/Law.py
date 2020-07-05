@@ -1,13 +1,13 @@
 # Ohm's Law
 
 # Calculating Voltage
-def voltage(v,i,r):
-    return v == i * r
+def voltage(i,r):
+    return i * r
 
 # Calculating Resistance
-def resistance (v,i,r):
-    return r == v/r
+def resistance (v,i):
+    return v/i
 
 # Calculating Current
-def current(v,i,r):
-    return i == v/r
+def current(v,r):
+    return v/r
